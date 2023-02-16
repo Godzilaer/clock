@@ -1,1 +1,1 @@
-# Cool clock I made while exploring javascript/html/css further
+Cool clock I made while exploring javascript/html/css further
