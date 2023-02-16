@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="styles/style.css" media="screen"/>	
+<link rel="icon" type="image/x-icon" href="images/favicon.png"/>
+
+<title>Clock - Ethanos</title>
+</head>
+
+<body>
+
+<video class="backgroundVid" autoplay muted loop>
+<source src="images/wavesbackground.webm" type="video/webm">
+</video>
+
+<svg class="holder" width="7px" height="300px" overflow="visible">
+<rect id="hour" class="hands" x="-2px" y="5px" rx="15px" width="13px" height="100px" "fill: black" />
+<rect id="min" class="hands" x=" -1px" y="3px" rx="25px" width="9px" height="175px" "fill: black" />
+<rect id="sec" class="hands" x="1px" y="0px" rx="100px" width="5px" height="225px" fill="red" />
+<circle cx="3" cy="0" r="10" fill="grey" />
+</svg>
+
+<img class="clockBackground" src="images/clock_background.png"/>
+
+<script type="text/javascript" src="scripts/clock.js"></script>
+
+</body>
+</html>

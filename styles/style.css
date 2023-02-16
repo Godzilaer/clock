@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+}
+
+.holder{
+	position: relative;
+	margin-top: 360px;
+	margin-left: 270px;
+}
+
+.hands{
+	transition: 100ms cubic-bezier(0.54,-0.05, 0.48, 1.55) all;
+	transform-origin: 50% 0%;
+}
+
+.clockBackground{
+	position: relative;
+	width: 600px;
+	height: auto;
+	margin-left: -308px;
+}
+
+.backgroundVid{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	min-width: 100%;
+	min-height: 100%;
+}
+
