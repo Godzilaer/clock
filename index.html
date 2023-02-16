@@ -13,9 +13,12 @@
 
 <body>
 
+<!--Safari does not like fixed position videos so it is put in a div-->
+<div style="position: fixed">
 <video class="backgroundVid" autoplay muted loop playsinline>
-<source src="images/wavesbackground.webm" type="video/webm">
+<source src="images/wavesbackground.webm" type="video/webm"/>
 </video>
+</div>
 
 <svg class="holder" width="7px" height="300px" overflow="visible">
 <rect id="hour" class="hands" x="-2px" y="5px" rx="15px" width="13px" height="100px" "fill: black" />
